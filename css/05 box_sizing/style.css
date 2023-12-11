@@ -1,0 +1,14 @@
+* {
+    box-sizing: content-box;
+}
+
+div {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border-style: solid;
+}
+
+.second {
+    padding: 10px;
+}

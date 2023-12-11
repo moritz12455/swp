@@ -1,0 +1,45 @@
+.container-1 {
+    width: 200px;
+    height: 400px;
+    background: cyan;
+    margin-left: 40px;
+    margin-top: 40px;
+    position: relative;
+}
+
+.container-1 > .item-1 {
+    background: black;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: -10px;
+    left: -10px;
+}
+
+.container-1 > .item-2 {
+    background: green;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.container-2 {
+    width: 80%;
+    height: 50px;
+    border: solid;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.container-2 > .item-1, .container-2 > .item-2, .container-2 > .item-3 {
+    border: solid;
+    background: green;
+    width: 40px;
+    height: 20px;
+    margin: 20px;
+}

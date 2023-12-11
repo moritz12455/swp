@@ -1,0 +1,38 @@
+.container {
+    top: 100px;
+    left: 100px;
+    right: 100px;
+    bottom: 100px;
+    position: absolute;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    background: green;
+    margin: 50px;
+}
+
+.item-container-1 {
+    display: grid;
+    column-gap: 1px;
+    row-gap: 1px;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 25% 25% 25% 25%;
+    border: solid;
+}
+
+.item-container-2 {
+    display: grid;
+    column-gap: 1px;
+    row-gap: 1px;
+    grid-template-columns: 50% 50%;
+    border: solid;
+}
+
+.item {
+    background: green;
+    margin: 50px;
+}
